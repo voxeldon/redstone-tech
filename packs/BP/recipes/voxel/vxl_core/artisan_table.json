@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vxl_core:artisan_table_recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"LLL",
+			"LIL",
+			"LLL"
+		],
+		"key": {
+			"L": {
+				"tag": "minecraft:logs_that_burn"
+			},
+			"I": {
+				"item": "minecraft:iron_block"
+			}
+		},
+		"unlock": [
+			{
+				"tag": "minecraft:logs_that_burn"
+			}
+		],
+		"result": {
+			"item": "vxl_core:artisan_table",
+			"data": 0
+		}
+	}
+}

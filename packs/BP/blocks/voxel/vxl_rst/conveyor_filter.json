@@ -1,0 +1,60 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "vxl_rst:conveyor_filter", 
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.chest"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			},
+			"states": {
+				"vxl:blocked_direction": ["none","front", "left", "right"],
+				"vxl:last_used_direction": ["undefined","north","south", "east", "west"]
+			}
+		},
+		"components": {
+			"tag:vxl_rst_conveyor": {},
+			"minecraft:custom_components": ["vxl_rst:conveyor_filter"],
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 4, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 4, 16]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.5
+			},
+			"minecraft:map_color": "#e5a100",
+			"minecraft:destructible_by_explosion": {"explosion_resistance": 999},
+			"minecraft:material_instances": {"*": {"texture": "vxl_rst_conveyor_filter","render_method": "alpha_test"}},
+			"minecraft:geometry": {
+				"identifier": "geometry.vxl_rst.conveyor_filter"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' ",
+				"components": {"minecraft:transformation": {"rotation": [0, 180, 0]}}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' ",
+				"components": {"minecraft:transformation": {"rotation": [0, 0, 0]}}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' ",
+				"components": {"minecraft:transformation": {"rotation": [0, 90, 0]}}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' ",
+				"components": {"minecraft:transformation": {"rotation": [0, 270, 0]}}
+			}
+		]
+	}
+}

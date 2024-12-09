@@ -1,0 +1,20 @@
+[
+	{
+		"flipbook_texture": "textures/voxel/vxl_rst/blocks/conveyor",
+		"atlas_tile": "vxl_rst_conveyor",
+		"ticks_per_frame": 2,
+		"blend_frames": false
+	},
+	{
+		"flipbook_texture": "textures/voxel/vxl_rst/blocks/spiked_conveyor",
+		"atlas_tile": "vxl_rst_spiked_conveyor",
+		"ticks_per_frame": 2,
+		"blend_frames": false
+	},
+	{
+		"flipbook_texture": "textures/voxel/vxl_rst/blocks/conveyor_filter",
+		"atlas_tile": "vxl_rst_conveyor_filter",
+		"ticks_per_frame": 2,
+		"blend_frames": false
+	}
+]

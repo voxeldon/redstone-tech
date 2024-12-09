@@ -1,0 +1,19 @@
+{
+  "name": "redstone_tech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build_tsc": "tsc",
+    "build_rego": "regolith run",
+    "build": "npm run build_tsc && npm run build_rego"
+  },
+  "keywords": [],
+  "author": "DonTheDev",
+  "license": "ISC",
+  "dependencies": {
+    "@minecraft/common": "^1.2.0",
+    "@minecraft/server": "^1.16.0",
+    "@minecraft/server-ui": "^1.3.0"
+  }
+}

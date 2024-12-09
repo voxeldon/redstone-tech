@@ -1,0 +1,12 @@
+pack.name=Don's Redstone Tech
+pack.description=Don's Redstone Tech
+tile.vxl_core:artisan_table.name=Artisan Table
+tile.vxl_rst:conveyor.name=Conveyor
+tile.vxl_rst:spiked_conveyor.name=Spiked Conveyor
+tile.vxl_rst:conveyor_devider.name=Conveyor Devider
+tile.vxl_rst:conveyor_filter.name=Conveyor Filter
+
+acm.vxl_rst.pack_name=Don's Redstone Tech
+acm.vxl_rst.author_name=Donthedev
+acm.vxl_rst.description=Redstone Tools& Machines
+acm.vxl_rst.allow_entities=Allow Entities to moved by converyors.

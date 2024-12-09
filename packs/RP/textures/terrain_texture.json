@@ -1,0 +1,20 @@
+{
+  "resource_pack_name": "vxl_rst",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "vxl_core_artisan_table_front": {"textures": "textures/voxel/vxl_core/blocks/artisan_table_front"},
+    "vxl_core_artisan_table_side": {"textures": "textures/voxel/vxl_core/blocks/artisan_table_side"},
+    "vxl_core_artisan_table_top": {"textures": "textures/voxel/vxl_core/blocks/artisan_table_top"},
+    "vxl_rst_conveyor": {
+      "textures": "textures/voxel/vxl_rst/blocks/conveyor"
+    },
+    "vxl_rst_spiked_conveyor": {
+      "textures": "textures/voxel/vxl_rst/blocks/spiked_conveyor"
+    },
+    "vxl_rst_conveyor_filter": {
+      "textures": "textures/voxel/vxl_rst/blocks/conveyor_filter"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vxl_rst:spiked_conveyor_recipe"
+		},
+		"tags": [
+			"vxl_core_artisan_table"
+		],
+		"pattern": [
+			" Q ",
+			"QCQ",
+			" Q "
+		],
+		"key": {
+			"C": {
+				"item": "vxl_rst:conveyor"
+			},
+			"Q": {
+				"item": "minecraft:quartz"
+			}
+		},
+		"unlock": [
+			{"item": "vxl_core:artisan_table"},
+			{"item": "vxl_rst:conveyor"}
+		],
+		"result": {
+			"item": "vxl_rst:spiked_conveyor",
+			"data": 0
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "vxl_rst:conveyor_devider_recipe"
+		},
+		"tags": [
+			"vxl_core_artisan_table"
+		],
+		"pattern": [
+			"BIB",
+			"RRR",
+			"ILI"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:blackstone"
+			},
+			"I": {
+				"item": "minecraft:iron_ingot"
+			},
+			"R": {
+				"item": "minecraft:redstone"
+			},
+			"L": {
+				"item": "minecraft:lever"
+			}
+		},
+		"unlock": [
+			{"item": "vxl_core:artisan_table"},
+			{"item": "vxl_rst:conveyor"}
+		],
+		"result": {
+			"item": "vxl_rst:conveyor_devider",
+			"data": 0
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "vxl_rst:conveyor_filter_recipe"
+	  },
+	  
+	  "tags": [ "vxl_core_artisan_table" ],
+	  "pattern": [
+		"O",
+		"#",
+		"C"
+	  ],
+	  "key": {
+		"#": {
+		  "item": "vxl_rst:conveyor"
+		},
+		"O": {
+		  "item": "minecraft:observer"
+		},
+		"C": {
+		  "item": "minecraft:comparator"
+		}
+	  },
+	  "unlock": [
+		{"item": "vxl_core:artisan_table"},
+		{"item": "vxl_rst:conveyor"}
+	  ],
+	  "result": {
+		"item": "vxl_rst:conveyor_filter",
+		"count": 4
+	  },
+	  "priority": -1
+	}
+  }
+  

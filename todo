@@ -1,0 +1,13 @@
+# Conveyor
+
+# Item Spliter
+- Splits items into 2 or 3 directions depending on the model
+
+# Item Sorter 
+- acts as a hopper for selected item types only
+
+# Item Destoryer 
+- destoryes either all or selected item types depending on the selected mode
+
+# Mob Masher
+- kills any entities that pass over the conveyor aside from items and players
