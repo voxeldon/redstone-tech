@@ -1,7 +1,6 @@
 import { world } from "@minecraft/server";
 import { ConveyorAlignment, ConveyorDamage, ConveyorDevider, ConveyorFilter, ConveyorMovement } from "./components/conveyor";
 import { AcmApi, AcmEventData, AcmEventType, AddonConfiguration } from "./_lib/acm_api";
-import { RedstoneInput } from "./components/redstone";
 
 world.beforeEvents.worldInitialize.subscribe(initEvent => {
     initEvent.blockComponentRegistry.registerCustomComponent('vxl_rst:conveyor_alignment', new ConveyorAlignment());
@@ -20,6 +19,29 @@ const spawnManager: AddonConfiguration = {
             label: 'allow_entities',
             defaultValue: true
         }
+    ],
+    guideKeys: [
+        "guide.intro",
+        "guide.conveyors_title",
+        "guide.conveyors_desc",
+        "guide.conveyors_durability",
+        "guide.spiked_conveyors_title",
+        "guide.spiked_conveyors_desc",
+        "guide.spiked_conveyors_stats",
+        "guide.dividers_title",
+        "guide.dividers_desc",
+        "guide.dividers_toggle",
+        "guide.dividers_durability",
+        "guide.filters_title",
+        "guide.filters_desc",
+        "guide.filters_control",
+        "guide.filters_durability",
+        "guide.tiers_title",
+        "guide.tiers_desc",
+        "guide.tiers_benefits",
+        "guide.speed_title",
+        "guide.speed_desc",
+        "guide.speed_behavior"
     ]
 }
 AcmApi.generateAddonProfile(spawnManager);

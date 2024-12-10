@@ -17,6 +17,29 @@ const spawnManager = {
             label: 'allow_entities',
             defaultValue: true
         }
+    ],
+    guideKeys: [
+        "guide.intro",
+        "guide.conveyors_title",
+        "guide.conveyors_desc",
+        "guide.conveyors_durability",
+        "guide.spiked_conveyors_title",
+        "guide.spiked_conveyors_desc",
+        "guide.spiked_conveyors_stats",
+        "guide.dividers_title",
+        "guide.dividers_desc",
+        "guide.dividers_toggle",
+        "guide.dividers_durability",
+        "guide.filters_title",
+        "guide.filters_desc",
+        "guide.filters_control",
+        "guide.filters_durability",
+        "guide.tiers_title",
+        "guide.tiers_desc",
+        "guide.tiers_benefits",
+        "guide.speed_title",
+        "guide.speed_desc",
+        "guide.speed_behavior"
     ]
 };
 AcmApi.generateAddonProfile(spawnManager);
