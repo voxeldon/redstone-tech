@@ -20,7 +20,7 @@ export enum AcmEventType {
  * @property {string} type - The type of the event.
  * @property {Map<string, any>} [data] - Optional additional data associated with the event.
  */
-export type AcmEventData = {type: string, data?: Map<string, any>, player?: Player};
+export type AcmEventData = { type: string, data?: Map<string, any>, player?: Player };
 
 /**
  * A type representing a callback function that is invoked after an ACM event occurs.
@@ -39,6 +39,14 @@ export type AddonSettingTypeId = 'toggle' | 'slider' | 'dropdown' | 'text_field'
  * Represents a setting that can be one of several types.
  */
 export type AddonSetting = ToggleSetting | SliderSetting | DropdownSetting | TextFieldSetting;
+
+/**
+ * Represents a log entry for ACM (Addon Configuration Manager).
+ * 
+ * @property {AddonConfiguration} profileId - The configuration profile id associated with the log entry.
+ * @property {string} log - The log message or content.
+ */
+export interface AcmLog { profileId: String; logText: string; };
 
 /**
  * Represents the settings for a text field.
@@ -63,8 +71,8 @@ export interface TextFieldSetting {
  * @property {number} [defaultValueIndex] - The index of the default selected option. Optional.
  */
 export interface DropdownSetting {
-    label: string, 
-    options: string[], 
+    label: string,
+    options: string[],
     defaultValueIndex?: number
 }
 
@@ -79,10 +87,10 @@ export interface DropdownSetting {
  * @property {number} [defaultValue] - The default value of the slider (optional).
  */
 export interface SliderSetting {
-    label: string, 
-    min: number, 
-    max: number, 
-    step: number, 
+    label: string,
+    min: number,
+    max: number,
+    step: number,
     defaultValue?: number
 }
 
@@ -94,7 +102,7 @@ export interface SliderSetting {
  * @property {boolean} [defaultValue] - The default value for the toggle setting. Defaults to `false` if not provided.
  */
 export interface ToggleSetting {
-    label: string, 
+    label: string,
     defaultValue?: boolean
 }
 
@@ -131,7 +139,7 @@ export interface AddonConfiguration {
     iconPath?: string;
     addonSettings?: AddonSetting[];
     guideKeys?: string[];
-    extension?: AddonExtension;
+    extension?: AddonExtension | AddonExtension[];
 }
 
 
@@ -142,17 +150,22 @@ export class AcmApi {
     private static initialized: boolean = false;
     private static eventSignal: AcmAfterEvent[] = [];
 
-    private static initializeListener(profile: AddonConfiguration){
+    private static initializeListener(profile: AddonConfiguration) {
         if (AcmApi.initialized) return;
         AcmApi.initialized = true;
-        system.afterEvents.scriptEventReceive.subscribe((event: ScriptEventCommandMessageAfterEvent)=>{
+        system.afterEvents.scriptEventReceive.subscribe((event: ScriptEventCommandMessageAfterEvent) => {
             if (event.id === `acm:${profile.authorId}_${profile.packId}`) {
                 for (const handler of AcmApi.eventSignal) {
-                    handler({type: 'data_changed', data:AcmApi.loadAddonData(profile)});
+                    handler({ type: 'data_changed', data: AcmApi.loadAddonData(profile) });
                 }
-            } else if (event.id === `acm:${profile.authorId}_${profile.packId}.${profile.extension?.eventId}`) {
-                for (const handler of AcmApi.eventSignal) {
-                    handler({type: 'extension_triggerd', player: event.sourceEntity as Player});
+            } else {
+                const extensions = Array.isArray(profile.extension) ? profile.extension : [profile.extension];
+                for (const ext of extensions) {
+                    if (event.id === `acm:${profile.authorId}_${profile.packId}.${ext?.eventId}`) {
+                        for (const handler of AcmApi.eventSignal) {
+                            handler({ type: 'extension_triggerd', player: event.sourceEntity as Player });
+                        }
+                    }
                 }
             }
         })
@@ -186,12 +199,12 @@ export class AcmApi {
      * 
      * @param profile - The configuration object for the addon profile, containing authorId and packId.
      */
-    public static generateAddonProfile(profile: AddonConfiguration){
+    public static generateAddonProfile(profile: AddonConfiguration) {
         const dataProfileId: string = `ACM:${profile.authorId}_${profile.packId}`;
         //world.setDynamicProperty(dataProfileId, JSON.stringify(profile));
         let db: ScoreboardObjective | undefined = world.scoreboard.getObjective(dataProfileId);
         if (!db) db = world.scoreboard.addObjective(dataProfileId);
-        db!.getParticipants().forEach((i)=>{if (db!.getScore(i) === 0) db!.removeParticipant(i)})
+        db!.getParticipants().forEach((i) => { if (db!.getScore(i) === 0) db!.removeParticipant(i) })
         db!.addScore(JSON.stringify(profile), 0);
         AcmApi.initializeListener(profile);
     }
@@ -202,16 +215,31 @@ export class AcmApi {
      * @param profile - The configuration of the addon, including authorId and packId.
      * @returns A Map containing the addon data, or undefined if no data is found.
      */
-    public static loadAddonData(profile: AddonConfiguration): Map<string, any> {
+    public static loadAddonData(profile: AddonConfiguration): Map<string, any> | undefined {
         const dataProfileId: string = `ACM:${profile.authorId}_${profile.packId}`;
         const db: ScoreboardObjective | undefined = world.scoreboard.getObjective(dataProfileId);
         let rawData: string | undefined = undefined;
         db?.getParticipants().forEach((i)=>{if (db.getScore(i) === 1) rawData = i.displayName});
-        let saveState: any | undefined = undefined;
+        let saveState: Map<string, any> | undefined = undefined;
         if (rawData) {
             const parsedData = JSON.parse(rawData);
             saveState = new Map(Object.entries(parsedData));
         }
         return saveState;
+    }
+
+    /**
+     * Pushes a log entry to the scoreboard for the given profile.
+     *
+     * @param profile - The profile configuration.
+     * @param logText - The text of the log entry to be pushed.
+     */
+    public static pushLog(profile: AddonConfiguration, logText: string) {
+        const dataProfileId: string = `ACM:${profile.authorId}_${profile.packId}`;
+        let db: ScoreboardObjective | undefined = world.scoreboard.getObjective('acm:logs');
+        if (!db) db = world.scoreboard.addObjective('acm:logs') as ScoreboardObjective;
+        const id: number = db.getParticipants().length;
+        const log: AcmLog = { profileId: dataProfileId, logText: logText };
+        db.addScore(JSON.stringify(log), id);
     }
 }

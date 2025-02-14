@@ -13,6 +13,7 @@ export var AcmEventType;
     AcmEventType["DataChanged"] = "data_changed";
     AcmEventType["ExtensionTriggered"] = "extension_triggerd";
 })(AcmEventType || (AcmEventType = {}));
+;
 /**
  * The AcmApi class provides methods to manage addon profiles and handle events related to addon data changes.
  */
@@ -27,9 +28,14 @@ export class AcmApi {
                     handler({ type: 'data_changed', data: AcmApi.loadAddonData(profile) });
                 }
             }
-            else if (event.id === `acm:${profile.authorId}_${profile.packId}.${profile.extension?.eventId}`) {
-                for (const handler of AcmApi.eventSignal) {
-                    handler({ type: 'extension_triggerd', player: event.sourceEntity });
+            else {
+                const extensions = Array.isArray(profile.extension) ? profile.extension : [profile.extension];
+                for (const ext of extensions) {
+                    if (event.id === `acm:${profile.authorId}_${profile.packId}.${ext?.eventId}`) {
+                        for (const handler of AcmApi.eventSignal) {
+                            handler({ type: 'extension_triggerd', player: event.sourceEntity });
+                        }
+                    }
                 }
             }
         });
@@ -89,6 +95,21 @@ export class AcmApi {
             saveState = new Map(Object.entries(parsedData));
         }
         return saveState;
+    }
+    /**
+     * Pushes a log entry to the scoreboard for the given profile.
+     *
+     * @param profile - The profile configuration.
+     * @param logText - The text of the log entry to be pushed.
+     */
+    static pushLog(profile, logText) {
+        const dataProfileId = `ACM:${profile.authorId}_${profile.packId}`;
+        let db = world.scoreboard.getObjective('acm:logs');
+        if (!db)
+            db = world.scoreboard.addObjective('acm:logs');
+        const id = db.getParticipants().length;
+        const log = { profileId: dataProfileId, logText: logText };
+        db.addScore(JSON.stringify(log), id);
     }
 }
 AcmApi.initialized = false;
