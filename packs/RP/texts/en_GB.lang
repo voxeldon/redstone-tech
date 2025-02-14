@@ -32,3 +32,4 @@ acm.vxl_rst.guide.tiers_benefits=Each tier increases the block's durability and 
 acm.vxl_rst.guide.speed_title=§l§8Speed§r§6§o(Coming Soon)§r
 acm.vxl_rst.guide.speed_desc=With "Conveyors Require Redstone" enabled, conveyor speed is controlled by redstone input strength.
 acm.vxl_rst.guide.speed_behavior=Conveyors conduct power like redstone dust, with input strength diminishing by 1 for each block down the chain.
+

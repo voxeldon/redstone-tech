@@ -1,0 +1,35 @@
+pack.name=레드 스톤 기술
+pack.description=레드 스톤 기술
+tile.vxl_core:artisan_table.name=장인 테이블
+tile.vxl_rst:conveyor.name=컨베이어
+tile.vxl_rst:spiked_conveyor.name=스파이크 컨베이어
+tile.vxl_rst:conveyor_Divider.name=컨베이어 분배기
+tile.vxl_rst:conveyor_filter.name=컨베이어 필터
+
+acm.vxl_rst.pack_name=§4redstone 기술
+acm.vxl_rst.author_name=Donthedev
+acm.vxl_rst.description=레드 스톤 도구 및 기계.
+acm.vxl_rst.allow_entities=실체가 Converyors에 의해 움직일 수 있도록합니다.
+
+acm.vxl_rst.guide.intro=§l§4redstone 기술 가이드! §r
+acm.vxl_rst.guide.conveyors_title=§l§2conveyors§r
+acm.vxl_rst.guide.conveyors_desc=컨베이어는 블록과 엔티티를 이동합니다. 그들은 위로 올라가서 아래로, 그리고 어떤 추기경으로 갈 수 있습니다.
+acm.vxl_rst.guide.conveyors_durability=그들의 내구성은 그들의 계층 수준에 달려 있습니다.
+acm.vxl_rst.guide.spiked_conveyors_title=§l§4spiked conveyors§r
+acm.vxl_rst.guide.spiked_conveyors_desc=스파이크 컨베이어는 컨베이어 체인을 따라 폭도를 죽이는 데 사용될 수 있습니다.
+acm.vxl_rst.guide.spiked_conveyors_stats=내구성과 손상 출력은 계층 수준에 따라 다릅니다.
+acm.vxl_rst.guide.dividers_title=§l§3conveyor dividers§r
+acm.vxl_rst.guide.dividers_desc=분배기는 할당 된 방향에 따라 모든 입력에 대한 출력을 번갈아 가며 교대합니다.
+acm.vxl_rst.guide.dividers_toggle=분배기 출력 방향은 분배기 블록과 상호 작용하여 전환 할 수 있습니다.
+acm.vxl_rst.guide.dividers_durability=그들의 내구성은 그들의 계층 수준에 달려 있습니다.
+acm.vxl_rst.guide.filters_title=§l§5conveyor filters§r
+acm.vxl_rst.guide.filters_desc=필터는 특정 항목 유형 만 전달할 수 있도록합니다. 다른 항목은 측면으로 필터링됩니다.
+acm.vxl_rst.guide.filters_control=필터 위에 가슴을 놓고 특정 항목으로 채우면 필터 항목 유형을 정의 할 수 있습니다.
+acm.vxl_rst.guide.filters_durability=그들의 내구성은 그들의 계층 수준에 달려 있습니다.
+acm.vxl_rst.guide.tiers_title=§l§8tiers§r§6§o (곧 출시) §r
+acm.vxl_rst.guide.tiers_desc=컨베이어는 철, 구리, 금, 다이아몬드 및 네테이트의 5 계층으로 제작할 수 있습니다.
+acm.vxl_rst.guide.tiers_benefits=각 계층은 블록의 내구성을 높이고 다른 고유 한 이점을 제공합니다.
+acm.vxl_rst.guide.speed_title=§l§8speed§r§6§o (곧 출시) §r
+acm.vxl_rst.guide.speed_desc="컨베이어가 필요한 레드 스톤"을 활성화하면 컨베이어 속도는 레드 스톤 입력 강도에 의해 제어됩니다.
+acm.vxl_rst.guide.speed_behavior=컨베이어는 레드 스톤 먼지와 같은 전력을 수행하며 체인의 각 블록마다 입력 강도가 1 씩 감소합니다.
+

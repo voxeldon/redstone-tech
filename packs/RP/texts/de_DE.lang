@@ -1,0 +1,35 @@
+pack.name=Redstone Tech
+pack.description=Redstone Tech
+tile.vxl_core:artisan_table.name=Handwerkstisch
+tile.vxl_rst:conveyor.name=Förderer
+tile.vxl_rst:spiked_conveyor.name=Stachelförderer
+tile.vxl_rst:conveyor_Divider.name=Förderer
+tile.vxl_rst:conveyor_filter.name=Förderfilter
+
+acm.vxl_rst.pack_name=§4Redstone Tech
+acm.vxl_rst.author_name=DoneDhedev
+acm.vxl_rst.description=Redstone Tools & Maschinen.
+acm.vxl_rst.allow_entities=Erlauben Sie den Entitäten, sich von Converyors zu bewegen.
+
+acm.vxl_rst.guide.intro=§L§4REDSTONE Tech Leitfaden! §R
+acm.vxl_rst.guide.conveyors_title=§L§2Conveyors§r
+acm.vxl_rst.guide.conveyors_desc=Förderer bewegen Blöcke und Entitäten. Sie können hoch, runter und in jede Kardinalrichtung gehen.
+acm.vxl_rst.guide.conveyors_durability=Ihre Haltbarkeit hängt von ihrem Stufe ab.
+acm.vxl_rst.guide.spiked_conveyors_title=§L§4Spiked Förderer§r
+acm.vxl_rst.guide.spiked_conveyors_desc=Spiked Förderer können verwendet werden, um Mobs entlang der Förderkette abzutöten.
+acm.vxl_rst.guide.spiked_conveyors_stats=Ihre Haltbarkeit und ihre Schadensausgabe hängen von ihrem Stufe ab.
+acm.vxl_rst.guide.dividers_title=§L§3Conveyor Dividers§r
+acm.vxl_rst.guide.dividers_desc=Ein Teiler wechselt seine Ausgabe für jede Eingabe basierend auf seinen zugewiesenen Anweisungen.
+acm.vxl_rst.guide.dividers_toggle=Die Anweisungen zur Trennleistung können durch Interaktion mit dem Teilerblock umgeschaltet werden.
+acm.vxl_rst.guide.dividers_durability=Ihre Haltbarkeit hängt von ihrem Stufe ab.
+acm.vxl_rst.guide.filters_title=§L§5Conveyor Filters§r
+acm.vxl_rst.guide.filters_desc=Filter erlauben nur, dass bestimmte Elementtypen vorwärts geleitet werden. Andere Gegenstände werden zur Seite gefiltert.
+acm.vxl_rst.guide.filters_control=Sie können Filterelementtypen definieren, indem Sie eine Truhe über dem Filter platzieren und mit bestimmten Elementen füllen.
+acm.vxl_rst.guide.filters_durability=Ihre Haltbarkeit hängt von ihrem Stufe ab.
+acm.vxl_rst.guide.tiers_title=§L§8Tiers§r§6§o (bald) §r
+acm.vxl_rst.guide.tiers_desc=Förderer können in 5 Ebenen hergestellt werden: Eisen, Kupfer, Gold, Diamant und Netherit.
+acm.vxl_rst.guide.tiers_benefits=Jede Stufe erhöht die Haltbarkeit des Blocks und bietet andere einzigartige Vorteile.
+acm.vxl_rst.guide.speed_title=§L§8Speed§r§6§o (bald kommt) §r
+acm.vxl_rst.guide.speed_desc=Bei aktivierter "Förderer benötigen Redstone", wird die Fördergeschwindigkeit durch die Redstone -Eingangsstärke gesteuert.
+acm.vxl_rst.guide.speed_behavior=Förderer leiten Leistung wie Redstone -Staub, wobei die Inputstärke für jeden Block in der Kette um 1 abnimmt.
+

@@ -1,0 +1,35 @@
+pack.name=Redstone Tech
+pack.description=Redstone Tech
+tile.vxl_core:artisan_table.name=Esnaf masası
+tile.vxl_rst:conveyor.name=Konveyör
+tile.vxl_rst:spiked_conveyor.name=Çivili konveyör
+tile.vxl_rst:conveyor_Divider.name=Konveyör bölücü
+tile.vxl_rst:conveyor_filter.name=Konveyör filtresi
+
+acm.vxl_rst.pack_name=§4Rone Tech
+acm.vxl_rst.author_name=Donthedev
+acm.vxl_rst.description=Redstone Araçları ve Makineleri.
+acm.vxl_rst.allow_entities=Varlıkların Converics tarafından taşınmasına izin verin.
+
+acm.vxl_rst.guide.intro=§L§4Rone Teknik Kılavuzu! §R
+acm.vxl_rst.guide.conveyors_title=§L§2Conveyors§r
+acm.vxl_rst.guide.conveyors_desc=Konveyörler blokları ve varlıkları hareket ettirir. Yukarı, aşağı ve herhangi bir kardinal yönde gidebilirler.
+acm.vxl_rst.guide.conveyors_durability=Dayanıklılıkları katman seviyelerine bağlıdır.
+acm.vxl_rst.guide.spiked_conveyors_title=§L§4spiked konveyörler §r
+acm.vxl_rst.guide.spiked_conveyors_desc=Çivili konveyörler konveyör zinciri boyunca çeteleri öldürmek için kullanılabilir.
+acm.vxl_rst.guide.spiked_conveyors_stats=Dayanıklılık ve hasar çıktıları katman seviyelerine bağlıdır.
+acm.vxl_rst.guide.dividers_title=§L§3 Konveyör bölücüleri§r
+acm.vxl_rst.guide.dividers_desc=Bir bölücü, atanan talimatlara göre her giriş için çıktısını değiştirir.
+acm.vxl_rst.guide.dividers_toggle=Bölücü çıkış talimatları, bölücü bloğu ile etkileşime girerek değiştirilebilir.
+acm.vxl_rst.guide.dividers_durability=Dayanıklılıkları katman seviyelerine bağlıdır.
+acm.vxl_rst.guide.filters_title=§L§5Conveyor Filtres§r
+acm.vxl_rst.guide.filters_desc=Filtreler yalnızca belirli öğe türlerinin ileriye geçmesine izin verir; Diğer öğeler yan tarafa süzülür.
+acm.vxl_rst.guide.filters_control=Filtrenin üzerine bir sandık yerleştirerek ve belirli öğelerle doldurarak filtre öğesi türlerini tanımlayabilirsiniz.
+acm.vxl_rst.guide.filters_durability=Dayanıklılıkları katman seviyelerine bağlıdır.
+acm.vxl_rst.guide.tiers_title=§L§8Tiers§r§6§o (yakında) §r
+acm.vxl_rst.guide.tiers_desc=Konveyörler 5 katmana hazırlanabilir: demir, bakır, altın, elmas ve netherit.
+acm.vxl_rst.guide.tiers_benefits=Her katman bloğun dayanıklılığını arttırır ve diğer benzersiz faydalar sağlar.
+acm.vxl_rst.guide.speed_title=§L§8speed§r§6§o (çok yakında) §r
+acm.vxl_rst.guide.speed_desc="Konveyörler Redstone gerektirir" etkinken, konveyör hızı Redstone giriş mukavemeti ile kontrol edilir.
+acm.vxl_rst.guide.speed_behavior=Konveyörler Redstone tozu gibi güç verir, giriş mukavemeti zincirden aşağı 1 azalır.
+

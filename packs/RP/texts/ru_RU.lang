@@ -1,0 +1,35 @@
+pack.name=Redstone Tech
+pack.description=Redstone Tech
+tile.vxl_core:artisan_table.name=Ремесленник
+tile.vxl_rst:conveyor.name=Конвейер
+tile.vxl_rst:spiked_conveyor.name=С шипами конвейер
+tile.vxl_rst:conveyor_Divider.name=Перегородка
+tile.vxl_rst:conveyor_filter.name=Конвейер фильтр
+
+acm.vxl_rst.pack_name=§4Redstone Tech
+acm.vxl_rst.author_name=Донтхедев
+acm.vxl_rst.description=Redstone Tools & Machines.
+acm.vxl_rst.allow_entities=Позвольте сущностям перемещаться Converyors.
+
+acm.vxl_rst.guide.intro=§L§4Redstone Tech Guide! §R
+acm.vxl_rst.guide.conveyors_title=§L§2conveyors§r
+acm.vxl_rst.guide.conveyors_desc=Конвейеры перемещают блоки и сущности. Они могут подняться, вниз и в любом кардинальном направлении.
+acm.vxl_rst.guide.conveyors_durability=Их долговечность зависит от их уровня.
+acm.vxl_rst.guide.spiked_conveyors_title=§L§4spiked Conteyors§r
+acm.vxl_rst.guide.spiked_conveyors_desc=Крайственные конвейеры могут быть использованы для убийства мобов вдоль цепочки конвейеров.
+acm.vxl_rst.guide.spiked_conveyors_stats=Их долговечность и выходной сигнал зависят от уровня их уровня.
+acm.vxl_rst.guide.dividers_title=§L§3conveyor разделители §r
+acm.vxl_rst.guide.dividers_desc=Разделитель чередует свой вывод для каждого ввода на основе назначенных указаний.
+acm.vxl_rst.guide.dividers_toggle=Уилности вывода разделителя могут переключаться путем взаимодействия с блоком разделителей.
+acm.vxl_rst.guide.dividers_durability=Их долговечность зависит от их уровня.
+acm.vxl_rst.guide.filters_title=§L§5conveyor filters§r
+acm.vxl_rst.guide.filters_desc=Фильтры позволяют только определенным типам элементов проходить вперед; Другие предметы отфильтрованы в сторону.
+acm.vxl_rst.guide.filters_control=Вы можете определить типы элементов фильтра, поместив сундук над фильтром и заполняя ее определенными элементами.
+acm.vxl_rst.guide.filters_durability=Их долговечность зависит от их уровня.
+acm.vxl_rst.guide.tiers_title=§L§8Tiers§r§6§o (скоро) §r
+acm.vxl_rst.guide.tiers_desc=Конвейеры могут быть изготовлены в 5 уровней: железо, медь, золото, алмаз и нефир.
+acm.vxl_rst.guide.tiers_benefits=Каждый уровень увеличивает долговечность блока и обеспечивает другие уникальные преимущества.
+acm.vxl_rst.guide.speed_title=§L§8speed§r§6§o (скоро) §r
+acm.vxl_rst.guide.speed_desc=При включении «конвейеры требуется Redstone», скорость конвейера контролируется прочностью входа Redstone.
+acm.vxl_rst.guide.speed_behavior=Конвейеры проводят мощность, как пыль красного камня, с прочностью входа, уменьшающейся на 1 для каждого блока вниз по цепи.
+

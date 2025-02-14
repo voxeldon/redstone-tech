@@ -1,0 +1,35 @@
+pack.name=Redstone Tech
+pack.description=Redstone Tech
+tile.vxl_core:artisan_table.name=Table artisanale
+tile.vxl_rst:conveyor.name=Convoyeur
+tile.vxl_rst:spiked_conveyor.name=Convoyeur enrichi
+tile.vxl_rst:conveyor_Divider.name=Diviseur
+tile.vxl_rst:conveyor_filter.name=Filtre à convoyeur
+
+acm.vxl_rst.pack_name=§4redstone Tech
+acm.vxl_rst.author_name=Donthedev
+acm.vxl_rst.description=Outils et machines Redstone.
+acm.vxl_rst.allow_entities=Permettez aux entités de déplacer par les convergyors.
+
+acm.vxl_rst.guide.intro=§L§4redredstone Tech Guide! §R
+acm.vxl_rst.guide.conveyors_title=§L§2Conveyors§r
+acm.vxl_rst.guide.conveyors_desc=Les convoyeurs déplacent des blocs et des entités. Ils peuvent monter, descendre et dans n'importe quelle direction cardinale.
+acm.vxl_rst.guide.conveyors_durability=Leur durabilité dépend de leur niveau de niveau.
+acm.vxl_rst.guide.spiked_conveyors_title=§L§4 apiré les convoyeurs §r
+acm.vxl_rst.guide.spiked_conveyors_desc=Les convoyeurs enrichis peuvent être utilisés pour tuer des foules le long de la chaîne de convoyeurs.
+acm.vxl_rst.guide.spiked_conveyors_stats=Leur durabilité et leur production de dégâts dépendent de leur niveau de niveau.
+acm.vxl_rst.guide.dividers_title=§L§3 Conseils de conseils
+acm.vxl_rst.guide.dividers_desc=Un diviseur alterne sa sortie pour chaque entrée en fonction de ses directions attribuées.
+acm.vxl_rst.guide.dividers_toggle=Les directions de sortie du diviseur peuvent être basculées en interagissant avec le bloc de diviseur.
+acm.vxl_rst.guide.dividers_durability=Leur durabilité dépend de leur niveau de niveau.
+acm.vxl_rst.guide.filters_title=§L§5 Consewayor filters§r
+acm.vxl_rst.guide.filters_desc=Les filtres permettent uniquement aux types d'articles spécifiques de passer de l'avant; D'autres articles sont filtrés sur le côté.
+acm.vxl_rst.guide.filters_control=Vous pouvez définir les types d'articles de filtre en plaçant un coffre au-dessus du filtre et en le remplissant avec des articles spécifiques.
+acm.vxl_rst.guide.filters_durability=Leur durabilité dépend de leur niveau de niveau.
+acm.vxl_rst.guide.tiers_title=§L§8tiers§r§6§o (à venir bientôt) §r
+acm.vxl_rst.guide.tiers_desc=Les convoyeurs peuvent être fabriqués en 5 niveaux: fer, cuivre, or, diamant et nhérite.
+acm.vxl_rst.guide.tiers_benefits=Chaque niveau augmente la durabilité du bloc et offre d'autres avantages uniques.
+acm.vxl_rst.guide.speed_title=§L§8Speed§r§6§o (à venir bientôt) §r
+acm.vxl_rst.guide.speed_desc=Avec "les convoyeurs nécessitent une redstone", la vitesse du convoyeur est contrôlée par la résistance à l'entrée de Redstone.
+acm.vxl_rst.guide.speed_behavior=Les convoyeurs entraînent une puissance comme la poussière de la pierre red, avec une résistance à l'entrée diminuant de 1 pour chaque bloc dans la chaîne.
+

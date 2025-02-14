@@ -1,0 +1,35 @@
+pack.name=Redstone Tech
+pack.description=Redstone Tech
+tile.vxl_core:artisan_table.name=Tabela artesanal
+tile.vxl_rst:conveyor.name=Transportador
+tile.vxl_rst:spiked_conveyor.name=Transportador cravado
+tile.vxl_rst:conveyor_Divider.name=Divisor transportador
+tile.vxl_rst:conveyor_filter.name=Filtro transportador
+
+acm.vxl_rst.pack_name=§4Redstone Tech
+acm.vxl_rst.author_name=Donthedev
+acm.vxl_rst.description=Redstone Tools & Machines.
+acm.vxl_rst.allow_entities=Permitir que as entidades se movam por converyors.
+
+acm.vxl_rst.guide.intro=§L§4Redstone Tech Guide! §R
+acm.vxl_rst.guide.conveyors_title=§L§2ConConveores§r
+acm.vxl_rst.guide.conveyors_desc=Transportadores movem blocos e entidades. Eles podem subir, descer e em qualquer direção cardeal.
+acm.vxl_rst.guide.conveyors_durability=Sua durabilidade depende do nível de nível.
+acm.vxl_rst.guide.spiked_conveyors_title=§L§4Spiked Transportadores §R
+acm.vxl_rst.guide.spiked_conveyors_desc=Transportadores cravados podem ser usados ​​para matar multidões ao longo da cadeia transportadora.
+acm.vxl_rst.guide.spiked_conveyors_stats=Sua durabilidade e produção de danos dependem do nível de nível.
+acm.vxl_rst.guide.dividers_title=§L§3 Divisores de administração de consultores §R
+acm.vxl_rst.guide.dividers_desc=Um divisor alterna sua saída para todas as entradas com base em suas direções atribuídas.
+acm.vxl_rst.guide.dividers_toggle=As instruções de saída do divisor podem ser alteradas interagindo com o bloco de divisor.
+acm.vxl_rst.guide.dividers_durability=Sua durabilidade depende do nível de nível.
+acm.vxl_rst.guide.filters_title=§L§5 Filters da conclusão §R
+acm.vxl_rst.guide.filters_desc=Os filtros permitem que os tipos de itens específicos passem adiante; Outros itens são filtrados para o lado.
+acm.vxl_rst.guide.filters_control=Você pode definir tipos de itens de filtro colocando um baú acima do filtro e preenchê -lo com itens específicos.
+acm.vxl_rst.guide.filters_durability=Sua durabilidade depende do nível de nível.
+acm.vxl_rst.guide.tiers_title=§L§8tiers§r§6§o (em breve) §r
+acm.vxl_rst.guide.tiers_desc=Os transportadores podem ser criados em 5 níveis: ferro, cobre, ouro, diamante e hetterito.
+acm.vxl_rst.guide.tiers_benefits=Cada nível aumenta a durabilidade do bloco e oferece outros benefícios exclusivos.
+acm.vxl_rst.guide.speed_title=§L§8speed§r§6§o (em breve) §r
+acm.vxl_rst.guide.speed_desc=Com "Transportadores requer Redstone" ativado, a velocidade do transportador é controlada pela força de entrada Redstone.
+acm.vxl_rst.guide.speed_behavior=Os transportadores conduzem energia como a poeira Redstone, com a força de entrada diminuindo em 1 para cada bloco na corrente.
+

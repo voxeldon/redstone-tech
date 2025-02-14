@@ -1,0 +1,35 @@
+pack.name=Redstone Tech
+pack.description=Redstone Tech
+tile.vxl_core:artisan_table.name=Kézműves asztal
+tile.vxl_rst:conveyor.name=Szállítószalag
+tile.vxl_rst:spiked_conveyor.name=Tüskés szállítószalag
+tile.vxl_rst:conveyor_Divider.name=Szállítószalag elválasztó
+tile.vxl_rst:conveyor_filter.name=Szállítószűrő
+
+acm.vxl_rst.pack_name=§4Redstone Tech
+acm.vxl_rst.author_name=Donthedev
+acm.vxl_rst.description=Redstone szerszámok és gépek.
+acm.vxl_rst.allow_entities=Engedje meg, hogy az entitások a Converyorok mozgatják.
+
+acm.vxl_rst.guide.intro=§L§4Redstone Tech Guide! §R
+acm.vxl_rst.guide.conveyors_title=§L§2Conveyors§r
+acm.vxl_rst.guide.conveyors_desc=A szállítószalagok blokkokat és entitásokat mozgatnak. Mehetnek fel, le és bármilyen bíboros irányba.
+acm.vxl_rst.guide.conveyors_durability=Tartósságuk a rétegszinttől függ.
+acm.vxl_rst.guide.spiked_conveyors_title=§L§4Spiked Colveyors§r
+acm.vxl_rst.guide.spiked_conveyors_desc=A tüskés szállítószalagok felhasználhatók a mobok megölésére a szállítószalagon.
+acm.vxl_rst.guide.spiked_conveyors_stats=Tartósságuk és károsodásuk kimenete a szint szintjétől függ.
+acm.vxl_rst.guide.dividers_title=§L§3 Conveyor Dividers§r
+acm.vxl_rst.guide.dividers_desc=Az elválasztó a hozzárendelt utasítások alapján minden bemenetnél váltakozik kimenetével.
+acm.vxl_rst.guide.dividers_toggle=Az elválasztó kimeneti irányok áthatolhatók az elválasztóblokkkal való kölcsönhatással.
+acm.vxl_rst.guide.dividers_durability=Tartósságuk a rétegszinttől függ.
+acm.vxl_rst.guide.filters_title=§L§5 conveyor filters§r
+acm.vxl_rst.guide.filters_desc=A szűrők csak az egyes elemtípusok előrehaladását lehetővé teszik; Egyéb elemeket oldalra szűrünk.
+acm.vxl_rst.guide.filters_control=Meghatározhatja a szűrőelemtípusokat úgy, hogy egy mellkasát a szűrő fölé helyezi, és kitölti azt meghatározott elemekkel.
+acm.vxl_rst.guide.filters_durability=Tartósságuk a rétegszinttől függ.
+acm.vxl_rst.guide.tiers_title=§L§8tiers§r§6§o (hamarosan jön) §r
+acm.vxl_rst.guide.tiers_desc=A szállítószalagok 5 szintbe készíthetők: vas, réz, arany, gyémánt és netherit.
+acm.vxl_rst.guide.tiers_benefits=Minden szint növeli a blokk tartósságát, és egyéb egyedi előnyöket is nyújt.
+acm.vxl_rst.guide.speed_title=§L§8Speed§r§6§o (hamarosan jön) §r
+acm.vxl_rst.guide.speed_desc=A "szállítószalagok megkövetelik a Redstone -t" engedélyezve, a szállítószalag sebességét a Redstone bemeneti erőssége vezérli.
+acm.vxl_rst.guide.speed_behavior=A szállítószalagok olyan energiát viselnek, mint a Redstone por, a bemeneti szilárdság 1 -rel csökken minden egyes blokknál a láncon.
+

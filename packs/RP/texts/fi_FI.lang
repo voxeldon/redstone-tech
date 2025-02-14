@@ -1,0 +1,35 @@
+pack.name=Redstone -tekniikka
+pack.description=Redstone -tekniikka
+tile.vxl_core:artisan_table.name=Käsityöpöytä
+tile.vxl_rst:conveyor.name=Kuljettaja
+tile.vxl_rst:spiked_conveyor.name=Piikki kuljetin
+tile.vxl_rst:conveyor_Divider.name=Kuljetinjakaja
+tile.vxl_rst:conveyor_filter.name=Kuljetinsuodatin
+
+acm.vxl_rst.pack_name=§4Redstone Tech
+acm.vxl_rst.author_name=Donthedev
+acm.vxl_rst.description=Redstone -työkalut ja koneet.
+acm.vxl_rst.allow_entities=Anna yhteisöjen siirtämisen yhteisöille.
+
+acm.vxl_rst.guide.intro=§L§4Redstone Tech Guide! §R
+acm.vxl_rst.guide.conveyors_title=§L§2Convetors§R
+acm.vxl_rst.guide.conveyors_desc=Kuljettimet siirtävät lohkoja ja yksiköitä. Ne voivat mennä ylös, alas ja missä tahansa kardinaalisessa suunnassa.
+acm.vxl_rst.guide.conveyors_durability=Heidän kestävyys riippuu heidän tasostasosta.
+acm.vxl_rst.guide.spiked_conveyors_title=§L§4SPIKED COVELORTORS§R
+acm.vxl_rst.guide.spiked_conveyors_desc=Piikki kuljettimia voidaan käyttää väkijoukkojen tappamiseen kuljetinketjun varrella.
+acm.vxl_rst.guide.spiked_conveyors_stats=Niiden kestävyys ja vaurioiden tuotos riippuvat niiden tasosta.
+acm.vxl_rst.guide.dividers_title=§L§3ConVelor Dividers§R
+acm.vxl_rst.guide.dividers_desc=Jakaja vuorottelee lähdönsä jokaiselle tulolle määritettyjen ohjeiden perusteella.
+acm.vxl_rst.guide.dividers_toggle=Jakajan lähtösuunnat voidaan vaihtaa vuorovaikutuksessa jakajan lohkon kanssa.
+acm.vxl_rst.guide.dividers_durability=Heidän kestävyys riippuu heidän tasostasosta.
+acm.vxl_rst.guide.filters_title=§L§5ConVelor Filters§r
+acm.vxl_rst.guide.filters_desc=Suodattimet sallivat vain tietyt tuotetyypit välittää eteenpäin; Muut esineet suodatetaan sivulle.
+acm.vxl_rst.guide.filters_control=Voit määrittää suodatinesinetyypit asettamalla rinnan suodattimen yläpuolelle ja täyttämällä sen tietyillä esineillä.
+acm.vxl_rst.guide.filters_durability=Heidän kestävyys riippuu heidän tasostasosta.
+acm.vxl_rst.guide.tiers_title=§L§8Tiers§r§6§o (tulossa pian) §R
+acm.vxl_rst.guide.tiers_desc=Kuljettimet voidaan muotoilla 5 -tasoon: rauta, kupari, kulta, timantti ja alankanite.
+acm.vxl_rst.guide.tiers_benefits=Jokainen taso lisää lohkon kestävyyttä ja tarjoaa muita ainutlaatuisia etuja.
+acm.vxl_rst.guide.speed_title=§L§8Speed§r§6§o (tulossa pian) §R
+acm.vxl_rst.guide.speed_desc=Kun "kuljettimet vaativat Redstone" -sovellusta, kuljettimen nopeutta ohjataan Redstone -syöttövoiman avulla.
+acm.vxl_rst.guide.speed_behavior=Kuljettimet käyttävät virtaa, kuten Redstone -pölyä, syöttölujuus vähenee 1: llä jokaisesta ketjusta alaspäin.
+

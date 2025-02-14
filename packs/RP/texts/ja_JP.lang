@@ -1,0 +1,35 @@
+pack.name=Redstone Tech
+pack.description=Redstone Tech
+tile.vxl_core:artisan_table.name=職人のテーブル
+tile.vxl_rst:conveyor.name=コンベア
+tile.vxl_rst:spiked_conveyor.name=スパイクコンベア
+tile.vxl_rst:conveyor_Divider.name=コンベヤーディバイダー
+tile.vxl_rst:conveyor_filter.name=コンベアフィルター
+
+acm.vxl_rst.pack_name=§4RedstoneTech
+acm.vxl_rst.author_name=donthedev
+acm.vxl_rst.description=レッドストーンツールとマシン。
+acm.vxl_rst.allow_entities=エンティティがconveryorsに移動できるようにします。
+
+acm.vxl_rst.guide.intro=§L§4RedstoneTech Guide！§R
+acm.vxl_rst.guide.conveyors_title=§L§2Conveyors§r
+acm.vxl_rst.guide.conveyors_desc=コンベヤーはブロックとエンティティを移動します。彼らは、上昇、下、そしてどの枢機の方向に進むことができます。
+acm.vxl_rst.guide.conveyors_durability=それらの耐久性はティアレベルに依存します。
+acm.vxl_rst.guide.spiked_conveyors_title=§L§4SpikedConveyors§r
+acm.vxl_rst.guide.spiked_conveyors_desc=スパイクされたコンベアを使用して、コンベアチェーンに沿ってMobを殺すことができます。
+acm.vxl_rst.guide.spiked_conveyors_stats=耐久性と損傷出力は、ティアレベルに依存します。
+acm.vxl_rst.guide.dividers_title=§L§3Conveyor仕分け§r
+acm.vxl_rst.guide.dividers_desc=割り当てられた方向に基づいて、入力ごとに出力を交互に分割します。
+acm.vxl_rst.guide.dividers_toggle=仕切りの出力方向は、分割ブロックと対話することで切り替えることができます。
+acm.vxl_rst.guide.dividers_durability=それらの耐久性はティアレベルに依存します。
+acm.vxl_rst.guide.filters_title=§L§5Conveyorフィルター§r
+acm.vxl_rst.guide.filters_desc=フィルターは、特定のアイテムタイプのみを前進させることができます。他のアイテムは側面にろ過されます。
+acm.vxl_rst.guide.filters_control=胸をフィルターの上に配置し、特定のアイテムで埋めることにより、フィルターアイテムタイプを定義できます。
+acm.vxl_rst.guide.filters_durability=それらの耐久性はティアレベルに依存します。
+acm.vxl_rst.guide.tiers_title=§l§8tiers§r§6§o（近日公開）§r
+acm.vxl_rst.guide.tiers_desc=コンベヤーは、鉄、銅、金、ダイヤモンド、ネザライトの5つの層に作られます。
+acm.vxl_rst.guide.tiers_benefits=各層はブロックの耐久性を高め、他のユニークな利点を提供します。
+acm.vxl_rst.guide.speed_title=§L§8Speed§r§6§o（近日公開）§R
+acm.vxl_rst.guide.speed_desc=「コンベアはレッドストーンを必要とする」を有効にすると、コンベア速度はレッドストーンの入力強度によって制御されます。
+acm.vxl_rst.guide.speed_behavior=コンベヤーは、レッドストーンダストのようなパワーを導入し、チェーンの下にある各ブロックに対して入力強度が1ずつ減少します。
+

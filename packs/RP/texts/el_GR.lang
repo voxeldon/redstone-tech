@@ -1,0 +1,35 @@
+pack.name=Redstone Tech
+pack.description=Redstone Tech
+tile.vxl_core:artisan_table.name=Βιοτεχνικός πίνακας
+tile.vxl_rst:conveyor.name=Μετακομιστής
+tile.vxl_rst:spiked_conveyor.name=Μεταφορέας
+tile.vxl_rst:conveyor_Divider.name=Διαιρέτης μεταφορέα
+tile.vxl_rst:conveyor_filter.name=Μεταφορικό φίλτρο
+
+acm.vxl_rst.pack_name=§4redstone Tech
+acm.vxl_rst.author_name=Ντόθιεφ
+acm.vxl_rst.description=Redstone Tools & Machines.
+acm.vxl_rst.allow_entities=Επιτρέψτε στις οντότητες να μετακινηθούν από τους Converyors.
+
+acm.vxl_rst.guide.intro=§L§4redstone Tech Guide! §R
+acm.vxl_rst.guide.conveyors_title=§L§2conveyorsgr
+acm.vxl_rst.guide.conveyors_desc=Οι μετακινητές μετακινούν μπλοκ και οντότητες. Μπορούν να ανεβαίνουν, κάτω και σε οποιαδήποτε βασική κατεύθυνση.
+acm.vxl_rst.guide.conveyors_durability=Η ανθεκτικότητά τους εξαρτάται από το επίπεδο της βαθμίδας τους.
+acm.vxl_rst.guide.spiked_conveyors_title=§L§4 -spiked conveyorsr
+acm.vxl_rst.guide.spiked_conveyors_desc=Οι μεταφορείς που μπορούν να χρησιμοποιηθούν για να σκοτώσουν τους όχλους κατά μήκος της αλυσίδας μεταφοράς.
+acm.vxl_rst.guide.spiked_conveyors_stats=Η ανθεκτικότητα και η παραγωγή ζημιών εξαρτώνται από το επίπεδο της βαθμίδας τους.
+acm.vxl_rst.guide.dividers_title=§L§3Conveyor Dividersr
+acm.vxl_rst.guide.dividers_desc=Ένας διαιρέτης εναλλάσσει την έξοδο του για κάθε είσοδο με βάση τις καθορισμένες οδηγίες του.
+acm.vxl_rst.guide.dividers_toggle=Οι κατευθύνσεις εξόδου του διαιρέτη μπορούν να ενεργοποιηθούν με αλληλεπίδραση με το μπλοκ διαχωρισμού.
+acm.vxl_rst.guide.dividers_durability=Η ανθεκτικότητά τους εξαρτάται από το επίπεδο της βαθμίδας τους.
+acm.vxl_rst.guide.filters_title=§L§5Conveyor Filtersr
+acm.vxl_rst.guide.filters_desc=Τα φίλτρα επιτρέπουν μόνο σε συγκεκριμένους τύπους στοιχείων να μεταβιβάσουν προς τα εμπρός. Άλλα αντικείμενα φιλτράρονται στο πλάι.
+acm.vxl_rst.guide.filters_control=Μπορείτε να ορίσετε τύπους αντικειμένων φίλτρου τοποθετώντας ένα στήθος πάνω από το φίλτρο και γεμίζοντας το με συγκεκριμένα στοιχεία.
+acm.vxl_rst.guide.filters_durability=Η ανθεκτικότητά τους εξαρτάται από το επίπεδο της βαθμίδας τους.
+acm.vxl_rst.guide.tiers_title=§L§8tiers§r§6§o (Σύντομα σύντομα) §r
+acm.vxl_rst.guide.tiers_desc=Οι μεταφορείς μπορούν να κατασκευαστούν σε 5 επίπεδα: σίδηρο, χαλκός, χρυσό, διαμάντι και Κάτω.
+acm.vxl_rst.guide.tiers_benefits=Κάθε βαθμίδα αυξάνει την ανθεκτικότητα του μπλοκ και παρέχει άλλα μοναδικά οφέλη.
+acm.vxl_rst.guide.speed_title=§L§8speed§r§6§o (Σύντομα σύντομα) §r
+acm.vxl_rst.guide.speed_desc=Με την ενεργοποίηση των "μεταφορέων που απαιτούν Redstone", η ταχύτητα μεταφοράς ελέγχεται από την αντοχή εισόδου Redstone.
+acm.vxl_rst.guide.speed_behavior=Οι μεταφορείς διεξάγουν δύναμη όπως σκόνη Redstone, με μείωση της αντοχής εισόδου κατά 1 για κάθε μπλοκ κάτω από την αλυσίδα.
+

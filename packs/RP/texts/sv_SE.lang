@@ -1,0 +1,35 @@
+pack.name=Redstone Tech
+pack.description=Redstone Tech
+tile.vxl_core:artisan_table.name=Hantverksbord
+tile.vxl_rst:conveyor.name=Transportband
+tile.vxl_rst:spiked_conveyor.name=Spiktransportör
+tile.vxl_rst:conveyor_Divider.name=Transportdelare
+tile.vxl_rst:conveyor_filter.name=Transportfilter
+
+acm.vxl_rst.pack_name=§4Redstone Tech
+acm.vxl_rst.author_name=Donthedev
+acm.vxl_rst.description=Redstone Tools & Machines.
+acm.vxl_rst.allow_entities=Låt enheter flyttas av Converyors.
+
+acm.vxl_rst.guide.intro=§L§4Redstone Tech Guide! §R
+acm.vxl_rst.guide.conveyors_title=§L§2Conveyors§r
+acm.vxl_rst.guide.conveyors_desc=Transportörer flyttar block och enheter. De kan gå upp, ner och i alla kardinalriktningar.
+acm.vxl_rst.guide.conveyors_durability=Deras hållbarhet beror på deras nivå.
+acm.vxl_rst.guide.spiked_conveyors_title=§L§4SPIKED transportörer§R
+acm.vxl_rst.guide.spiked_conveyors_desc=Spikade transportörer kan användas för att döda mobbar längs transportkedjan.
+acm.vxl_rst.guide.spiked_conveyors_stats=Deras hållbarhet och skador beror på deras nivå.
+acm.vxl_rst.guide.dividers_title=§L§3Conveyor Divider§r
+acm.vxl_rst.guide.dividers_desc=En avdelare växlar sin utgång för varje ingång baserat på dess tilldelade anvisningar.
+acm.vxl_rst.guide.dividers_toggle=Dividerutgångsanvisningar kan växlas genom att interagera med Divider -blocket.
+acm.vxl_rst.guide.dividers_durability=Deras hållbarhet beror på deras nivå.
+acm.vxl_rst.guide.filters_title=§L§5Conveyor Filters§R
+acm.vxl_rst.guide.filters_desc=Filter tillåter endast specifika objekttyper att passera framåt; Andra objekt filtreras till sidan.
+acm.vxl_rst.guide.filters_control=Du kan definiera filterobjekttyper genom att placera ett bröst ovanför filtret och fylla det med specifika objekt.
+acm.vxl_rst.guide.filters_durability=Deras hållbarhet beror på deras nivå.
+acm.vxl_rst.guide.tiers_title=§L§8tiers§r§6§o (kommer snart) §R
+acm.vxl_rst.guide.tiers_desc=Transportörer kan tillverkas i 5 nivåer: järn, koppar, guld, diamant och Netherit.
+acm.vxl_rst.guide.tiers_benefits=Varje nivå ökar blockets hållbarhet och ger andra unika fördelar.
+acm.vxl_rst.guide.speed_title=§L§8Ste§r§6§o (kommer snart) §R
+acm.vxl_rst.guide.speed_desc=Med "Transportörer kräver Redstone" aktiverad styrs transporthastighet av Redstone -ingångsstyrka.
+acm.vxl_rst.guide.speed_behavior=Transportörer utför kraft som Redstone Dust, med ingångsstyrka som minskar med 1 för varje block ner kedjan.
+

@@ -1,0 +1,35 @@
+pack.name=Redstone Tech
+pack.description=Redstone Tech
+tile.vxl_core:artisan_table.name=Ambachtelijke tafel
+tile.vxl_rst:conveyor.name=Transportband
+tile.vxl_rst:spiked_conveyor.name=Puntige transportband
+tile.vxl_rst:conveyor_Divider.name=Transportscheiding
+tile.vxl_rst:conveyor_filter.name=Transportfilter
+
+acm.vxl_rst.pack_name=§4Redstone Tech
+acm.vxl_rst.author_name=Donthedev
+acm.vxl_rst.description=Redstone Tools & Machines.
+acm.vxl_rst.allow_entities=Laat entiteiten worden verplaatst door Converyors.
+
+acm.vxl_rst.guide.intro=§L§4Redstone Tech Guide! §R
+acm.vxl_rst.guide.conveyors_title=§L§2Conveyors§r
+acm.vxl_rst.guide.conveyors_desc=Transportbanden verplaatsen blokken en entiteiten. Ze kunnen omhoog, naar beneden en in elke kardinale richting gaan.
+acm.vxl_rst.guide.conveyors_durability=Hun duurzaamheid hangt af van hun tierniveau.
+acm.vxl_rst.guide.spiked_conveyors_title=§L§4spiked transports§r
+acm.vxl_rst.guide.spiked_conveyors_desc=Sterkerige transportbanden kunnen worden gebruikt om mobs langs de transportcentrum te doden.
+acm.vxl_rst.guide.spiked_conveyors_stats=Hun duurzaamheid en schade -output zijn afhankelijk van hun niveau.
+acm.vxl_rst.guide.dividers_title=§L§3Conveyor Dividers§r
+acm.vxl_rst.guide.dividers_desc=Een verdeler wisselt zijn uitvoer voor elke invoer op basis van de toegewezen richtingen.
+acm.vxl_rst.guide.dividers_toggle=De uitgangsrichtingen van de verdeler kunnen worden geschakeld door interactie te hebben met het verdelingsblok.
+acm.vxl_rst.guide.dividers_durability=Hun duurzaamheid hangt af van hun tierniveau.
+acm.vxl_rst.guide.filters_title=§L§5Conveyor Filters§r
+acm.vxl_rst.guide.filters_desc=Filters laten alleen specifieke itemtypen doorgaan; Andere items worden aan de zijkant gefilterd.
+acm.vxl_rst.guide.filters_control=U kunt filteritemtypen definiëren door een borst boven het filter te plaatsen en deze te vullen met specifieke items.
+acm.vxl_rst.guide.filters_durability=Hun duurzaamheid hangt af van hun tierniveau.
+acm.vxl_rst.guide.tiers_title=§L§8tiers§r§6§o (binnenkort komen) §r
+acm.vxl_rst.guide.tiers_desc=Transportbanden kunnen worden vervaardigd in 5 lagen: ijzer, koper, goud, diamant en netherite.
+acm.vxl_rst.guide.tiers_benefits=Elke laag verhoogt de duurzaamheid van het blok en biedt andere unieke voordelen.
+acm.vxl_rst.guide.speed_title=§L§8Speed§r§6§o (binnenkort komen) §r
+acm.vxl_rst.guide.speed_desc=Met "transportbanden vereisen Redstone" ingeschakeld, wordt de transportsnelheid geregeld door de inputsterkte van Redstone.
+acm.vxl_rst.guide.speed_behavior=Transportbanden voeren vermogen als Redstone -stof uit, met invoersterkte die met 1 afneemt voor elk blok door de keten.
+

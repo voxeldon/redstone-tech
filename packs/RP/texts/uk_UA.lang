@@ -1,0 +1,35 @@
+pack.name=Redstone Tech
+pack.description=Redstone Tech
+tile.vxl_core:artisan_table.name=Ремісничий стіл
+tile.vxl_rst:conveyor.name=Конвеєр
+tile.vxl_rst:spiked_conveyor.name=Шипний конвеєр
+tile.vxl_rst:conveyor_Divider.name=Конвеєр
+tile.vxl_rst:conveyor_filter.name=Конвеєр
+
+acm.vxl_rst.pack_name=§4Redstone Tech
+acm.vxl_rst.author_name=Донтедев
+acm.vxl_rst.description=Інструменти та машини Redstone.
+acm.vxl_rst.allow_entities=Дозволити суб'єктам, що рухаються конвоєнами.
+
+acm.vxl_rst.guide.intro=§L§4Redstone Tech Guide! §R
+acm.vxl_rst.guide.conveyors_title=§L§2Conveyors§r
+acm.vxl_rst.guide.conveyors_desc=Конвеєри переміщують блоки та суб'єкти. Вони можуть піднятися, вниз і в будь -якому кардинальному напрямку.
+acm.vxl_rst.guide.conveyors_durability=Їх довговічність залежить від рівня їх рівня.
+acm.vxl_rst.guide.spiked_conveyors_title=§L§4spiked конвеєни§r
+acm.vxl_rst.guide.spiked_conveyors_desc=Шипні конвеєри можуть бути використані для вбивства мафії вздовж ланцюга конвеєра.
+acm.vxl_rst.guide.spiked_conveyors_stats=Їх довговічність та пошкодження виходу залежать від рівня їх рівня.
+acm.vxl_rst.guide.dividers_title=§L§3Conveyor Dividers§r
+acm.vxl_rst.guide.dividers_desc=Дільник чергує свій вихід для кожного входу на основі призначених напрямків.
+acm.vxl_rst.guide.dividers_toggle=Вказівки дільника можна перемикати, взаємодіючи з блоком роздільника.
+acm.vxl_rst.guide.dividers_durability=Їх довговічність залежить від рівня їх рівня.
+acm.vxl_rst.guide.filters_title=§L§5конвеєр фільтрів§r
+acm.vxl_rst.guide.filters_desc=Фільтри дозволяють лише певним типам елементів проходити вперед; Інші предмети фільтруються збоку.
+acm.vxl_rst.guide.filters_control=Ви можете визначити типи елементів фільтра, розмістивши скриню над фільтром і заповнивши його конкретними предметами.
+acm.vxl_rst.guide.filters_durability=Їх довговічність залежить від рівня їх рівня.
+acm.vxl_rst.guide.tiers_title=§L§8tiers§r§6§o (незабаром) §r
+acm.vxl_rst.guide.tiers_desc=Конвеєри можуть бути розроблені на 5 ярусів: залізо, мідь, золото, алмаз та нетерит.
+acm.vxl_rst.guide.tiers_benefits=Кожен рівень збільшує довговічність блоку та забезпечує інші унікальні переваги.
+acm.vxl_rst.guide.speed_title=§L§8speed§r§6§o (незабаром) §r
+acm.vxl_rst.guide.speed_desc=Зі "конвеєрами потрібні Redstone", швидкість конвеєра контролюється вхідною міцністю Redstone.
+acm.vxl_rst.guide.speed_behavior=Конвеєри проводять силу, як пил Redstone, при цьому вхідна міцність зменшується на 1 для кожного блоку вниз по ланцюгу.
+

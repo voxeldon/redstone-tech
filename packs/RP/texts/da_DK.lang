@@ -1,0 +1,35 @@
+pack.name=Redstone Tech
+pack.description=Redstone Tech
+tile.vxl_core:artisan_table.name=Artisan Table
+tile.vxl_rst:conveyor.name=Transportør
+tile.vxl_rst:spiked_conveyor.name=Spiked transportør
+tile.vxl_rst:conveyor_Divider.name=Transportdeler
+tile.vxl_rst:conveyor_filter.name=Transportfilter
+
+acm.vxl_rst.pack_name=§4Redstone Tech
+acm.vxl_rst.author_name=Donthedev
+acm.vxl_rst.description=Redstone Tools & Machines.
+acm.vxl_rst.allow_entities=Tillad enheder at blive bevæget af Converyors.
+
+acm.vxl_rst.guide.intro=§L§4Redstone Tech Guide! §R
+acm.vxl_rst.guide.conveyors_title=§L§2Conveyors§r
+acm.vxl_rst.guide.conveyors_desc=Transportører flytter blokke og enheder. De kan gå op, ned og i enhver kardinalretning.
+acm.vxl_rst.guide.conveyors_durability=Deres holdbarhed afhænger af deres niveau.
+acm.vxl_rst.guide.spiked_conveyors_title=§L§4Spiked Conveyors§r
+acm.vxl_rst.guide.spiked_conveyors_desc=Spikede transportører kan bruges til at dræbe mobber langs transportkæden.
+acm.vxl_rst.guide.spiked_conveyors_stats=Deres holdbarhed og skadeudgang afhænger af deres niveau.
+acm.vxl_rst.guide.dividers_title=§L§3Conveyor Divider§r
+acm.vxl_rst.guide.dividers_desc=En skillelinje skifter output for hvert input baseret på dets tildelte retninger.
+acm.vxl_rst.guide.dividers_toggle=Dividerudgangsretninger kan skiftes ved at interagere med dividerblokken.
+acm.vxl_rst.guide.dividers_durability=Deres holdbarhed afhænger af deres niveau.
+acm.vxl_rst.guide.filters_title=§L§5Conveyor Filters§r
+acm.vxl_rst.guide.filters_desc=Filtre tillader kun specifikke varetyper at videregive; Andre genstande filtreres til siden.
+acm.vxl_rst.guide.filters_control=Du kan definere filterposttyper ved at placere et bryst over filteret og fylde det med specifikke genstande.
+acm.vxl_rst.guide.filters_durability=Deres holdbarhed afhænger af deres niveau.
+acm.vxl_rst.guide.tiers_title=§L§8Tiers§r§6§o (kommer snart) §r
+acm.vxl_rst.guide.tiers_desc=Transportører kan udformes til 5 lag: jern, kobber, guld, diamant og nederlandt.
+acm.vxl_rst.guide.tiers_benefits=Hvert niveau øger blokens holdbarhed og giver andre unikke fordele.
+acm.vxl_rst.guide.speed_title=§L§8Speed§r§6§o (kommer snart) §r
+acm.vxl_rst.guide.speed_desc=Med "transportører kræver Redstone" aktiveret, styres transportørhastighed af Redstone -indgangsstyrken.
+acm.vxl_rst.guide.speed_behavior=Transportører udfører kraft som Redstone -støv, med inputstyrke formindsket med 1 for hver blok ned i kæden.
+

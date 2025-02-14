@@ -1,0 +1,35 @@
+pack.name=Redstone Tech
+pack.description=Redstone Tech
+tile.vxl_core:artisan_table.name=Tabela rzemieślnicza
+tile.vxl_rst:conveyor.name=Przenośnik
+tile.vxl_rst:spiked_conveyor.name=Wzpirzony przenośnik
+tile.vxl_rst:conveyor_Divider.name=Przenośnik dzielnik
+tile.vxl_rst:conveyor_filter.name=Filtr przenośnika
+
+acm.vxl_rst.pack_name=§ 4redstone Tech
+acm.vxl_rst.author_name=Dontedev
+acm.vxl_rst.description=Narzędzia i maszyny Redstone.
+acm.vxl_rst.allow_entities=Zezwalaj na poruszanie się przez Converyorów.
+
+acm.vxl_rst.guide.intro=§L§4REDstone Guide technologiczne! §R
+acm.vxl_rst.guide.conveyors_title=§L§2Conveyors§r
+acm.vxl_rst.guide.conveyors_desc=Przenośniki przenoszą bloki i byty. Mogą iść w górę, w dół i w dowolnym kierunku kardynalnym.
+acm.vxl_rst.guide.conveyors_durability=Ich trwałość zależy od poziomu poziomu.
+acm.vxl_rst.guide.spiked_conveyors_title=§L§4Spiked Conveyororororory §r
+acm.vxl_rst.guide.spiked_conveyors_desc=Kolorowe przenośniki mogą być używane do zabijania mobów wzdłuż łańcucha przenośników.
+acm.vxl_rst.guide.spiked_conveyors_stats=Ich wytrzymałość i wyniki szkód zależą od poziomu poziomu.
+acm.vxl_rst.guide.dividers_title=§L§3Conveyor Dividers§r
+acm.vxl_rst.guide.dividers_desc=Dzielnik zmienia swój wyjście dla każdego wejścia na podstawie przypisanych kierunków.
+acm.vxl_rst.guide.dividers_toggle=Kierunki wyjściowe dzielnika można przełączać poprzez interakcję z blokiem dzielnika.
+acm.vxl_rst.guide.dividers_durability=Ich trwałość zależy od poziomu poziomu.
+acm.vxl_rst.guide.filters_title=§L§5Conveyor Filters§r
+acm.vxl_rst.guide.filters_desc=Filtry pozwalają jedynie na przekazanie określonych rodzajów elementów; Inne elementy są filtrowane z boku.
+acm.vxl_rst.guide.filters_control=Możesz zdefiniować typy elementów filtra, umieszczając skrzynię nad filtrem i wypełniając ją określonymi elementami.
+acm.vxl_rst.guide.filters_durability=Ich trwałość zależy od poziomu poziomu.
+acm.vxl_rst.guide.tiers_title=§L§8Tiers§r§6§o (już wkrótce) §r
+acm.vxl_rst.guide.tiers_desc=Przenośniki można wykonać w 5 poziomach: żelazo, miedź, złoto, diament i netherite.
+acm.vxl_rst.guide.tiers_benefits=Każdy poziom zwiększa trwałość bloku i zapewnia inne unikalne korzyści.
+acm.vxl_rst.guide.speed_title=§L§8speed§r§6§o (już wkrótce) §r
+acm.vxl_rst.guide.speed_desc=Dzięki „przenośnikom wymagającym Redstone”, prędkość przenośnika jest kontrolowana przez wytrzymałość wejściową Redstone.
+acm.vxl_rst.guide.speed_behavior=Przenośniki przeprowadzają moc jak pył czerwonego kamienia, przy czym wytrzymałość wejściowa maleje o 1 dla każdego bloku w dół łańcucha.
+

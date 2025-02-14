@@ -1,0 +1,35 @@
+pack.name=Redstone Tech
+pack.description=Redstone Tech
+tile.vxl_core:artisan_table.name=Tavolo artigianale
+tile.vxl_rst:conveyor.name=Trasportatore
+tile.vxl_rst:spiked_conveyor.name=Trasportatore a spillo
+tile.vxl_rst:conveyor_Divider.name=Divisore trasportatore
+tile.vxl_rst:conveyor_filter.name=Filtro trasportatore
+
+acm.vxl_rst.pack_name=§4dstone Tech
+acm.vxl_rst.author_name=Donthev
+acm.vxl_rst.description=Redstone Tools & Machines.
+acm.vxl_rst.allow_entities=Consenti alle entità di muoversi da Converyors.
+
+acm.vxl_rst.guide.intro=§L§4Destone Tech Guide! §R
+acm.vxl_rst.guide.conveyors_title=§L§2Conveors§r
+acm.vxl_rst.guide.conveyors_desc=I trasportatori spostano blocchi ed entità. Possono salire, giù e in qualsiasi direzione cardinale.
+acm.vxl_rst.guide.conveyors_durability=La loro durata dipende dal loro livello di livello.
+acm.vxl_rst.guide.spiked_conveyors_title=§L§4 trasportatori Spiked§r
+acm.vxl_rst.guide.spiked_conveyors_desc=I trasportatori a spillo possono essere usati per uccidere i mob lungo la catena del trasporto.
+acm.vxl_rst.guide.spiked_conveyors_stats=La loro durata e la produzione di danni dipendono dal loro livello di livello.
+acm.vxl_rst.guide.dividers_title=§L§3Conveeor Divider§r
+acm.vxl_rst.guide.dividers_desc=Un divisore alterna il proprio output per ogni input in base alle direzioni assegnate.
+acm.vxl_rst.guide.dividers_toggle=Le direzioni di uscita del divisore possono essere attivate interagendo con il blocco divisore.
+acm.vxl_rst.guide.dividers_durability=La loro durata dipende dal loro livello di livello.
+acm.vxl_rst.guide.filters_title=§L§5 Filtro di commesse§r
+acm.vxl_rst.guide.filters_desc=I filtri consentono solo tipi di articoli specifici di passare in avanti; Altri articoli vengono filtrati di lato.
+acm.vxl_rst.guide.filters_control=È possibile definire i tipi di elementi del filtro posizionando una cassa sopra il filtro e riempiendolo con elementi specifici.
+acm.vxl_rst.guide.filters_durability=La loro durata dipende dal loro livello di livello.
+acm.vxl_rst.guide.tiers_title=§L§8Tiers§R§6§O (in arrivo) §r
+acm.vxl_rst.guide.tiers_desc=I trasportatori possono essere realizzati in 5 livelli: ferro, rame, oro, diamante e netherite.
+acm.vxl_rst.guide.tiers_benefits=Ogni livello aumenta la durata del blocco e offre altri vantaggi unici.
+acm.vxl_rst.guide.speed_title=§L§8Speed§R§6§O (in arrivo) §r
+acm.vxl_rst.guide.speed_desc=Con i "trasportatori requisiti Redstone" abilitati, la velocità del trasportatore è controllata dalla resistenza all'ingresso di Redstone.
+acm.vxl_rst.guide.speed_behavior=I trasportatori conducono potenza come polvere di pietra rossa, con resistenza all'ingresso che diminuisce di 1 per ogni blocco lungo la catena.
+

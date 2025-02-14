@@ -1,0 +1,35 @@
+pack.name=Redstone Tech
+pack.description=Redstone Tech
+tile.vxl_core:artisan_table.name=Ředitelský stůl
+tile.vxl_rst:conveyor.name=Dopravník
+tile.vxl_rst:spiked_conveyor.name=Spiked dopravník
+tile.vxl_rst:conveyor_Divider.name=Divider dopravníku
+tile.vxl_rst:conveyor_filter.name=Filtr dopravníku
+
+acm.vxl_rst.pack_name=§4Redstone Tech
+acm.vxl_rst.author_name=Donthedev
+acm.vxl_rst.description=Nástroje a stroje Redstone.
+acm.vxl_rst.allow_entities=Umožněte subjektům pohybovat se Converyors.
+
+acm.vxl_rst.guide.intro=§L§4Redstone Tech Guide! §R
+acm.vxl_rst.guide.conveyors_title=§L§2conveyors§r
+acm.vxl_rst.guide.conveyors_desc=Dopravníky přesouvají bloky a entity. Mohou jít nahoru, dolů a v jakémkoli kardinálním směru.
+acm.vxl_rst.guide.conveyors_durability=Jejich trvanlivost závisí na jejich úrovni úrovně.
+acm.vxl_rst.guide.spiked_conveyors_title=§L§4spiked dopravníky§R
+acm.vxl_rst.guide.spiked_conveyors_desc=Spiked dopravníky mohou být použity k zabíjení davů podél dopravního řetězce.
+acm.vxl_rst.guide.spiked_conveyors_stats=Jejich trvanlivost a výstup poškození závisí na jejich úrovni úrovně.
+acm.vxl_rst.guide.dividers_title=§L§3conveyor dividers§r
+acm.vxl_rst.guide.dividers_desc=Dělič střídá svůj výstup pro každý vstup na základě jeho přiřazených pokynů.
+acm.vxl_rst.guide.dividers_toggle=Pokyny výstupu děliče lze přepínat interakcí s blokem děliče.
+acm.vxl_rst.guide.dividers_durability=Jejich trvanlivost závisí na jejich úrovni úrovně.
+acm.vxl_rst.guide.filters_title=§L§5conveyor Filters§R
+acm.vxl_rst.guide.filters_desc=Filtry umožňují pouze konkrétní typy položek vpřed; Ostatní položky jsou filtrovány na stranu.
+acm.vxl_rst.guide.filters_control=Typy položek filtru můžete definovat umístěním hrudníku nad filtrem a naplněním konkrétními položkami.
+acm.vxl_rst.guide.filters_durability=Jejich trvanlivost závisí na jejich úrovni úrovně.
+acm.vxl_rst.guide.tiers_title=§L§8tiers§r§6§o (již brzy) §R
+acm.vxl_rst.guide.tiers_desc=Dopravní dopravy mohou být vytvořeny do 5 úrovní: železa, měď, zlato, diamant a netherite.
+acm.vxl_rst.guide.tiers_benefits=Každá úroveň zvyšuje trvanlivost bloku a poskytuje další jedinečné výhody.
+acm.vxl_rst.guide.speed_title=§L§8Sleed§r§6§o (již brzy) §R
+acm.vxl_rst.guide.speed_desc=U povolených „dopravníků vyžaduje Redstone“, rychlost dopravníku je řízena vstupní silou Redstone.
+acm.vxl_rst.guide.speed_behavior=Dopravní dopravníky provádějí sílu jako prach Redstone, se vstupní pevností se zmenšuje o 1 pro každý blok po řetězci.
+
